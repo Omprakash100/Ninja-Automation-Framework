@@ -1,3 +1,0 @@
-#!/bin/sh
-git push --set-upstream origin master
-curl --user "opadmin:redhat" http://localhost:8080/job/Auto_Download_Ninja_Framework_From_Github/build?token=run_ninja_framework

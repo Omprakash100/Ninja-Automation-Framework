@@ -7,7 +7,7 @@ Feature: Register Account functionality
   Scenario: Register with mandatory fields
     When I enter below details into mandatory fields
         |first_name|last_name|email            |telephone |password|
-        |Arun      |Motoori  |newid14@gmail.com|1234567890|12345   |
+        |Arun      |Motoori  |newid15@gmail.com|1234567890|12345   |
     And I select Privacy Policy option
     And I click on Continue button
     Then Account should get created
